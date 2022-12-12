@@ -15,13 +15,13 @@ bootstrap:
     - cdf-project: cdf-bootcamp-05-test
       mappings:
         - cdf-group: cdf:root
-          idp-source-id: ****-****-***-****-*******
+          idp-source-id: 3477adb2-9ab2-40d8-9110-1f7029789925
           idp-source-name: bootcamp-05-test-admin
         - cdf-group: cdf:all:owner
-          idp-source-id: ****-****-***-****-*******
+          idp-source-id: 71b4e86c-9893-4246-9842-33ff89906135
           idp-source-name: bootcamp-05-test-all-owner
         - cdf-group: cdf:all:read
-          idp-source-id: ****-****-***-****-*******
+          idp-source-id: c8a2b6f4-1bb7-4c52-b531-00616f6cb25e
           idp-source-name: bootcamp-05-test-all-read
 
   namespaces:
