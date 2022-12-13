@@ -26,7 +26,7 @@ jobs:
                       # CDF cluster, like bluefield, greenfield or westeurope-1
                       CDF_CLUSTER: westeurope-1
                       # CDF Project name
-                      CDF_PROJECT: cdf-bootcamp-01-prod
+                      CDF_PROJECT: cdf-bootcamp-05-prod
                       # Azure AD tenant id
                       IDP_TENANT: b9a7673a-0948-4da2-9706-efa2ef278de1
 

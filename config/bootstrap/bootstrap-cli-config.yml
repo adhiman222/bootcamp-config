@@ -23,7 +23,17 @@ bootstrap:
         - cdf-group: cdf:all:read
           idp-source-id: c8a2b6f4-1bb7-4c52-b531-00616f6cb25e
           idp-source-name: bootcamp-05-test-all-read
-
+    - cdf-project: cdf-bootcamp-05-prod
+      mappings:
+        - cdf-group: cdf:root
+          idp-source-id: a12bac23-c431-4d79-820f-65415da30f5f
+          idp-source-name: bootcamp-05-prod-admin
+        - cdf-group: cdf:all:owner
+          idp-source-id: afe7aee4-d004-4c04-8b5e-5f89b34cac6a
+          idp-source-name: bootcamp-05-prod-all-owner
+        - cdf-group: cdf:all:read
+          idp-source-id: 79b5464c-b18f-4f7f-85d9-b76d19e5a508
+          idp-source-name: bootcamp-05-prod-all-read
   namespaces:
     # Typical config will have separate namespace by data source ("src") and use cases ("uc")
     - ns-name: src
