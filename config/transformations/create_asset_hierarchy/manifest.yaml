@@ -4,7 +4,7 @@ name: create_asset_hierarchy_ui
 query:
     file: transformation.sql
 destination:
-  type: asset_hierarchy
+    type: asset_hierarchy
 ignoreNullFields: true
 shared: true
 action: upsert
@@ -18,5 +18,3 @@ authentication:
     cdfProjectName: ${CDF_PROJECT_NAME}
     scopes:
         - https://westeurope-1.cognitedata.com/.default
-
-
